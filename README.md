@@ -24,3 +24,9 @@ To build the project and run it locally on a Kind cluster, run the following com
 ```bash
 make build-images load-to-kind deploy
 ```
+
+OR
+
+```bash
+kubectl apply -f https://raw.githubusercontent.com/odigos-io/simple-demo/main/kubernetes/deployment.yaml
+```
